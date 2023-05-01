@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>U-Shop order form</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form>
+      <h1>Welcome to U-shop @MSU</h1>
+      <div class="input-div">
+        <label for="buyer-name"
+          >Buyer's Name
+          <input id="buyer-name" type="text" name="buyer-name" required />
+        </label>
+      </div>
+      <div class="input-div">
+        <label for="state"
+          >State
+          <input id="state" type="text" name="state" required />
+        </label>
+      </div>
+      <div class="product-div">
+        <table>
+          <tr>
+            <th>Product Name</th>
+            <th></th>
+            <th>Price</th>
+            <th></th>
+            <th>Quantity</th>
+            <th></th>
+          </tr>
+
+          <tr>
+            <td>Twisties</td>
+            <td></td>
+            <td>RM 3.00</td>
+            <td></td>
+            <td class="box"></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Cadbrey's Chocholate</td>
+            <td></td>
+            <td>RM 3.50</td>
+            <td></td>
+            <td class="box"></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Cadbrey's Nut Chocholate</td>
+            <td></td>
+            <td>RM 4.50</td>
+            <td></td>
+            <td class="box"></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Cloud 9</td>
+            <td></td>
+            <td>RM 0.30</td>
+            <td></td>
+            <td class="box"></td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+      <div class="payment-div">
+        <div>
+          <h2>Payment Method</h2>
+        </div>
+        <div>
+          <label><input type="radio" />cash</label>
+        </div>
+        <div>
+          <label><input type="radio" />Visa</label>
+        </div>
+        <div>
+          <label><input type="radio" />Master Card</label>
+        </div>
+      </div>
+      <div class="submit-div">
+        <button>Submit order</button>
+        <button>Cancel order</button>
+      </div>
+    </form>
+  </body>
+</html>
